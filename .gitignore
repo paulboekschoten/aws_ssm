@@ -32,3 +32,27 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# lock file 
+.terraform.lock.hcl
+
+# license files
+*.rli
+
+# Ignore apple folder
+.DS_Store
+
+# Ignore .pem files
+*.pem
+
+# Ignore debian packages
+*.deb
+
+# replicated installer
+replicated.tar.gz
+
+# airgap files
+*.airgap
+
+# zip files
+*.zip
